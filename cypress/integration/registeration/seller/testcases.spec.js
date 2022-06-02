@@ -43,7 +43,7 @@ describe('seller registeration', function(){
       cy.get('.form-container-group > :nth-child(2) > :nth-child(2) > :nth-child(1) > .form-control').clear({force:true});
       cy.get('.form-container-group > :nth-child(2) > :nth-child(2) > :nth-child(1) > .form-control').type('vvv',{force:true});
       cy.get(':nth-child(3) > .col-12 > :nth-child(1) > .form-control').clear({force:true});
-      cy.get(':nth-child(3) > .col-12 > :nth-child(1) > .form-control').type('andre@gmail.com',{force:true});
+      cy.get(':nth-child(3) > .col-12 > :nth-child(1) > .form-control').type('andwwwwrqqqwe@gmail.com',{force:true});
       cy.wait(7000)
       cy.get('.page-section > .col-lg-8 > :nth-child(1)').click({force:true});
       cy.get('#password').clear({force:true});
@@ -51,7 +51,7 @@ describe('seller registeration', function(){
       cy.get('#password_confirmation').clear({force:true});
       cy.get('#password_confirmation').type('123456',{force:true});
       cy.get('#register-phone-number').clear({force:true});
-      cy.get('#register-phone-number').type('1111111',{force:true});
+      cy.get('#register-phone-number').type('1111111145111',{force:true});
       cy.get('#step2 > :nth-child(1)').click({force:true});
       cy.wait(5000)
       cy.get(':nth-child(2) > .container > .list-inline > .text-center > .btn').click({force:true});
@@ -88,14 +88,14 @@ describe('seller registeration', function(){
 
       /* ==== End Cypress Studio ==== */
       /* ==== Generated with Cypress Studio ==== */
-      cy.get(':nth-child(1) > .w-100 > label').click();
-      cy.get('#opt-1').check();
-      cy.get(':nth-child(4) > .w-100 > label').click();
-      cy.get('#opt-4').check();
-      cy.get(':nth-child(6) > .w-100 > label').click();
-      cy.get('#opt-6').check();
-      cy.get('.form-check > :nth-child(1) > label').click();
-      cy.get('#opt-14').check();
+      cy.get(':nth-child(1) > .w-100 > label').click({force:true});
+      cy.get('#opt-1').check({force:true});
+      cy.get(':nth-child(4) > .w-100 > label').click({force:true});
+      cy.get('#opt-4').check({force:true});
+      cy.get(':nth-child(6) > .w-100 > label').click({force:true});
+      cy.get('#opt-6').check({force:true});
+      cy.get('.form-check > :nth-child(1) > label').click({force:true});
+      cy.get('#opt-14').check({force:true});
       /* ==== End Cypress Studio ==== */
     })
     it(' case2', function(){
@@ -139,7 +139,7 @@ describe('seller registeration', function(){
         cy.get('.form-container-group > :nth-child(2) > :nth-child(2) > :nth-child(1) > .form-control').clear({force:true});
         cy.get('.form-container-group > :nth-child(2) > :nth-child(2) > :nth-child(1) > .form-control').type('vvv',{force:true});
         cy.get(':nth-child(3) > .col-12 > :nth-child(1) > .form-control').clear({force:true});
-        cy.get(':nth-child(3) > .col-12 > :nth-child(1) > .form-control').type('andrewee@gmail.com',{force:true});
+        cy.get(':nth-child(3) > .col-12 > :nth-child(1) > .form-control').type('andreqqqqqazwee@gmail.com',{force:true});
         cy.wait(7000)
         cy.get('.page-section > .col-lg-8 > :nth-child(1)').click({force:true});
         cy.get('#password').clear({force:true});
@@ -147,7 +147,7 @@ describe('seller registeration', function(){
         cy.get('#password_confirmation').clear({force:true});
         cy.get('#password_confirmation').type('123456',{force:true});
         cy.get('#register-phone-number').clear({force:true});
-        cy.get('#register-phone-number').type('1111111',{force:true});
+        cy.get('#register-phone-number').type('1111341222222111',{force:true});
         cy.get('#step2 > :nth-child(1)').click({force:true});
         cy.wait(5000)
         cy.get(':nth-child(2) > .container > .list-inline > .text-center > .btn').click({force:true});
@@ -220,8 +220,7 @@ describe('seller registeration', function(){
         cy.get(':nth-child(1) > .i18m0o91').click()
 
         /* ==== Generated with Cypress Studio ==== */
-        cy.get('#message2806978835ActionsMenuToggler > .i4w4pc3').click();
-        cy.get('.email_responsive_mode_link').invoke('removeAttr', 'target').click();
+        
        
         /* ==== End Cypress Studio ==== */
       })
